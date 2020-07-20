@@ -29,5 +29,9 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to *prevent* printing of the R code that generated the plot.
-```{r}
+
+# Testing to see if Hello, world is printed
+
+Here I am testing to see if Hello, world is printed without the inline code printed too.
+```{r pressure, echo=FALSE}
 print("Hello, world.")
